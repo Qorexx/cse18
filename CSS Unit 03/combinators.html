@@ -35,6 +35,33 @@
             color: blueviolet; font-size: 30px; text-shadow: 2px 2px;
         }
 
+        /* ul .odd{
+            color: blue;
+        }
+        ul .even{
+            color: red;
+        } */
+
+         /* ul li:nth-child(odd){
+            color: blue;
+         } */
+
+         ul li:nth-child(3), ul li:nth-child(5) {
+            color: red;
+         }
+
+         ul li::first-letter{
+            color: blueviolet; font-size: 30px;
+         }
+
+         ul li::after{
+            content: "read more";
+            color: cyan;
+         }
+         ::marker{
+            color: aqua;
+         }
+
         
     </style>
 </head>
@@ -70,11 +97,11 @@
     <a href="">Visit This link</a>
 
     <ul>
-        <li style="color: blue;">hello</li>
-        <li style="color: red;">hi</li>
-        <li style="color: blue;">kay</li>
-        <li style="color: red;">nword</li>
-        <li style="color: blue;">ohh</li>
+        <li>hello</li>
+        <li>hi</li>
+        <li>kay</li>
+        <li>nword</li>
+        <li>ohh</li>
     </ul>
 </body>
 </html>
