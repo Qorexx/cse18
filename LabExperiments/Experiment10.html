@@ -6,7 +6,6 @@
     <title>Experiment 10 – Responsive Navbar</title>
 
     <style>
-        /* ------------------ MOBILE-FIRST BASE DESIGN ------------------ */
         * {
             margin: 0;
             padding: 0;
@@ -26,7 +25,6 @@
             color: white;
         }
 
-        /* Hamburger Button – visible on mobile only */
         .menu-btn {
             font-size: 1.6rem;
             cursor: pointer;
@@ -39,7 +37,6 @@
             letter-spacing: 2px;
         }
 
-        /* Menu hidden on mobile */
         .nav-links {
             display: none;
             list-style: none;
@@ -52,7 +49,6 @@
             font-size: 1.2rem;
         }
 
-        /* ------------------ TABLET ≥ 600px ------------------ */
         @media (min-width: 600px) {
             .nav-links {
                 display: flex;
@@ -69,11 +65,10 @@
             }
 
             .menu-btn {
-                display: none; /* Hide hamburger on larger screens */
+                display: none;
             }
         }
 
-        /* ------------------ DESKTOP ≥ 1024px ------------------ */
         @media (min-width: 1024px) {
             .navbar {
                 padding: 1.5rem 3rem;
